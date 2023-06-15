@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/');
+      const response = await fetch('http://localhost:5000/api/v1/');
       if (!response.ok) {
         throw new Error('Failed to fetch data');
       }
