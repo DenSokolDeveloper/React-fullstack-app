@@ -10,7 +10,6 @@ function App() {
       }
       const jsonData = await response.json();
       console.log(jsonData);
-      console.log(jsonData);
     } catch (error) {
       console.error(error);
     }
